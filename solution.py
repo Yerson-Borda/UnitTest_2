@@ -1,14 +1,15 @@
 from typing import List
 
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
 
-        # This is not part of the initial code, just to handle not allowed input
+        # This is not part of the initial code, just to handle not allowed input *- Bug -*
         if not (1 <= len(heights) <= 10 ** 5):
             raise ValueError("Error")
         if not all(0 <= h <= 10 ** 4 for h in heights):
             raise ValueError("Error")
-        # This is not part of the initial code, just to handle not allowed input
+        # This is not part of the initial code, just to handle not allowed input *- Bug -*
 
         maxArea = 0
         stack = []  # pair: (index, height)
@@ -27,5 +28,5 @@ class Solution:
 
 
 if __name__ == '__main__':
-    result = Solution().largestRectangleArea([2, 1, 5, 6, 2, 3])
+    result = Solution().largestRectangleArea([8, 18])
     print(result)
