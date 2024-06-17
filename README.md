@@ -3,7 +3,7 @@
 </div>
 
 This project contains the implementation and unit tests for finding the area of the largest rectangle in a histogram given an array of integers representing the heights of the histogram's bars.
-Task details: https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+<br>Task details: https://leetcode.com/problems/largest-rectangle-in-histogram/description/</br>
 
 ## Solution
 
